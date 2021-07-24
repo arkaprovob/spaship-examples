@@ -5,7 +5,7 @@ labels:
 
 envs:
   dev:
-    branch: pr-review
+    branch: spaship
   prod:
     branch: prod
     skipContexts: [ "/search", "/search/api" ]
