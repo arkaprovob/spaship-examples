@@ -32,7 +32,7 @@ spec:
         app: searchapi-mongo
     spec:
       containers:
-        - image: spaship/examples-03-searchapi
+        - image: quay.io/arbhatta/examples-03-searchapi:latest
           name: api
           readinessProbe:
             httpGet:
