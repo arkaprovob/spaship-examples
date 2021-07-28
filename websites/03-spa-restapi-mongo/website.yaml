@@ -2,7 +2,7 @@ apiVersion: v1
 
 envs:
   dev:
-    branch: main
+    branch: local-test-001
   prod:
     branch: prod
 
@@ -18,7 +18,7 @@ components:
     kind: git
     spec:
       dir: /websites/shared-components
-      branch: "2.0.0"
+      branch: "local-test-001"
   - context: /search
     kind: git
     spec:
