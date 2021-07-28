@@ -33,7 +33,7 @@ components:
       dir: /websites/shared-components
       branch: "1.0.0"
       envs:
-        dev: "2.0.0"
+        dev: "shared-comp-branch"
   - context: /search
     kind: git
     spec:
