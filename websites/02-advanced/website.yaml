@@ -5,7 +5,7 @@ labels:
 
 envs:
   dev:
-    branch: main
+    branch: local-test-001
   prod:
     branch: prod
     skipContexts: [ "/search", "/search/api" ]
